@@ -1,16 +1,9 @@
-# minecraft_hold
+# MCHold
 
-A new Flutter project.
+将装有大量Mod的Java版本Minecraft客户端挂起，在不玩的时候降低功耗并节省内存，在游玩时快速恢复
 
-## Getting Started
+# 打包可执行文件
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+build.cmd
+```
