@@ -1,0 +1,26 @@
+[package]
+name = "minecraft_hold_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.windows]
+version = "0.54.0"
+features = [
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_System_ProcessStatus",
+    "Win32_UI_WindowsAndMessaging",
+]
+
+[dependencies.serde]
+version = "1.0.197"
+features = ["derive"]
+
+
+[dependencies]
+sharedlib = "7.0.0"
+wmi = "0.13.2"
+serde_json = "1.0.114"
+
+[lib]
+crate-type = ["cdylib"]
